@@ -1,0 +1,29 @@
+body {
+  font-family: "Ledger", serif;
+}
+body .btn {
+  background: #34d934;
+  border-radius: 15px;
+  color: #ddeeff;
+  display: block;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 5px auto 5px auto;
+  width: 200px;
+  max-width: 90%;
+  text-align: center;
+}
+body .btn:hover {
+  background: #00bb11;
+}
+body .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #11aa11;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=src/App.css.map */
